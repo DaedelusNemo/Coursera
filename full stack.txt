@@ -1,0 +1,68 @@
+Some tools for full-stack development:
+
+Git and GitHub are extremely popular for source code storage and management.
+jQuery is a JavaScript library that simplifies DOM manipulation.
+Email-validator is a small library that checks an email address is correctly constructed
+and valid.
+Apache Commons Proper is a repository of reusable Java components.
+AngularJS is a JavaScript-based framework for dynamic web applications.
+Vue.js is a JavaScript framework focused on the user interface (reportedly faster within its scope.)
+Django is a framework that uses Python for web development.
+
+Build Tools:
+
+There are two categories of Build Tools widely in use: Build-automation utilities, which generate build artifacts like executables, by compiling and linking source code. Build-automation servers, which execute build-automation utilities on a scheduled or triggered basis; Continuous Integration (CI) enables you to integrate newly developed code frequently. The CI process automatically builds and tests your code, then CD deploys all code changes in a build to a testing or staging environment. Some examples of build tools are:
+Webpack – a module bundler for JavaScript.
+Babel – a JavaScript compiler.
+And Web Assembly - a binary instruction format that runs in your browser.
+
+Package Managers:
+
+Package managers take care of the tasks of finding, installing, maintaining or uninstalling software packages at the user's request. Package management systems: Coordinate with file archivers to extract package archives.Verify checksums and digital certificates to ensure the integrity and authenticity of
+the package. Locate, download, install, or update existing software from a software repository. And manage dependencies to ensure a package is installed with all packages it requires. Some commonly used package managers for each of the major platforms are listed here:
+On Linux - Debian Package Management System (DPKG). Red Hat Package Manager (RPM).
+On Windows - Chocolatey. On Android - Package Manager. On MacOS - Homebrew and MacPorts.
+Here are some examples of package managers for popular languages:
+For Node.js/Javascript - npm.
+For Java - Gradle and Maven.
+For Ruby - RubyGems.
+For Python - Pip and Conda.
+
+Some popular stacks:
+
+The Python-Django stack, uses the popular Python programming language alongside the Django web framework. This combination is all open source and commonly used for large-scale, fast-changing web applications.
+The Ruby on Rails stack, uses the Ruby programming language with a server-side web application framework. Ruby on Rails is great with JSON or XML for data transfer and HTML, CSS, and JavaScript for front-end development. 
+And the ASP.NET stack includes Microsoft technologies such as the ASP.NET MVC framework, the IIS web server, SQL Server, and Azure.
+The LAMP stack runs on the Linux operating system. It uses the Apache HTTP or Web server, MySQL databases, and the PHP programming language. All its constituent parts are open source and loosely coupled, so it’s easy to swap different options into the stack. For example, you could choose to use PostgreSQL instead of
+MySQL for your database server, changing the LAMP stack to be the LAPP stack. Similarly, you could use the Python programming language instead of PHP.
+The MEAN stack uses a MongoDB database with an Express.js web application server framework, the Angular.js framework for front-end JavaScript development, and the Node.js platform for server-side scripting.
+The MEAN software and services are platform agnostic, free, and open source.
+There are other stacks related to the MEAN stack, including:
+The MERN stack which replaces Angular.js with React, and is a flexible and high-performing framework for developing front-ends.
+And the MEVN stack which replaces Angular.js with Vue.js. Vue is a lighter-weight JavaScript
+framework with less capabilities, but it can provide better performance than Angular.js.
+
+Let’s consider some advantages and disadvantages of three different software stacks:
+MEAN, MEVN, and LAMP. MEAN is a free and open-source JavaScript software stack used for building web applications. The biggest advantage of the MEAN stack is that all of the parts use JavaScript, so developers only need to know a single language. The stack is also open source which means the cost is lucrative to businesses and there is a lot of documentation and re-usable code for developers to use. Development can happen quickly because Node.js has a huge collection of free, reusable module libraries. However, the MEAN stack may not be well-suited for large-scale applications. When using Express.js, the business logic often resides on the server preventing the reuse of some services like batching operations. And MongoDB is great for unstructured data, but it doesn’t provide the same level of functionality as a relational database. The MEVN stack is a web stack like MEAN, but it uses Vue.js instead of Angular.js for user interfaces. MEVN and MEAN stacks have similar advantages, but Vue.js is a much newer technology and doesn't have as many reusable libraries as Angular.js. Like MEAN and MEVN, the software and services in the LAMP stack are open source meaning there are lots of reusable chunks of code available to the developers. And because LAMP is one of the oldest software stacks it’s easy to find support and reusable solutions. However, because the Linux operating system is an integral part of the stack, it isn’t as flexible as MEAN and MEVN which are platform agnostic. MySQL is a relational database, so the stack cannot take advantage of
+unstructured data. The other disadvantage of the LAMP stack is that the back-end runs on PHP, Perl,
+or Python, whereas the front-end uses JavaScript and HTML, making it harder for developers to
+switch back and forth than the MEAN and MEVN stacks which use JavaScript throughout. 
+
+Query Languages:
+
+By far the most prevalent query language for database queries and database management is SQL. However, there are other query languages available such as AQL, CQL, Datalog, and DMX. In addition to SQL databases,
+there is another type of database called NoSQL, which stands for Not Only SQL. The key difference between these two types of databases is their data structures. While SQL databases are relational and use structured, predefined, schemas, NoSQL databases are non-relational in nature and have dynamic schemas for unstructured data. A query language is predominantly used to request data from a database or for CRUD commands: create, read, update, and delete data in a database. Database queries are either a select command, or an action command, such as CREATE, INSERT, UPDATE, or a mixture of both. Select queries request data from a database, whereas action queries manipulate data in a database. Query statements can also be used to perform other administrative functions such as creating users and modifying permissions.
+This table lists some of the most common SQL query statements.
+
+SELECT: Retrieve data from one or more tables. It's often combined with other clauses like WHERE, ORDER BY, and LIMIT to filter, sort, and limit the results. 
+INSERT: Adds new rows or records into a database table. It's used to populate tables with data. 
+UPDATE:bThis statement is used to modify existing data within a table. It allows you to change values in one or more columns of a row or multiple rows based on a specified condition. 
+DELETE: Removes rows or records from a database table. It can be used to delete data that is no longer needed or relevant. 
+CREATE: Create new database objects, such as tables, views, and stored procedures. 
+ALTER: modify the structure of existing database objects, such as adding or deleting columns in a table. 
+DROP: delete database objects, such as tables and views. 
+LIMIT: Restrict the number of rows returned by a SELECT statement. 
+ORDER BY: Sort the results of a SELECT statement in ascending or descending order. 
+WHERE: Filter the results of a SELECT statement based on a specified condition. 
+JOIN: Combine rows from two or more tables based on a related column between them. 
+
